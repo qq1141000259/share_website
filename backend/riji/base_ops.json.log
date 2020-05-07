@@ -1,0 +1,116 @@
+{"LV":"INFO","Time":"2020-04-24 14:47:58.556","Name":"base_ops","Caller":"utils/middleware.go:45","Msg":"URL: /api/v1/hello req: "}
+{"LV":"FATAL","Time":"2020-04-24 16:18:50.828","Name":"base_ops","Caller":"cmd/main.go:33","Msg":"Config File \"config\" Not Found in \"[/Users/zheng/Desktop/gowork/riji/config /Users/zheng/Desktop/gowork/config]\""}
+{"LV":"FATAL","Time":"2020-04-24 16:21:59.778","Name":"base_ops","Caller":"cmd/main.go:33","Msg":"default addr for network 'zgh19950605' unknown"}
+{"LV":"FATAL","Time":"2020-04-24 16:22:45.183","Name":"base_ops","Caller":"cmd/main.go:33","Msg":"default addr for network '118.89.90.113' unknown"}
+{"LV":"ERROR","Time":"2020-04-24 16:33:44.719","Name":"base_ops","Caller":"utils/middleware.go:36","Msg":"URL: /api/v1/hello duration: 12.551796s msg: system error reflect: call of reflect.Value.Interface on zero Value"}
+{"LV":"ERROR","Time":"2020-04-24 16:34:40.438","Name":"base_ops","Caller":"utils/middleware.go:36","Msg":"URL: /api/v1/hello duration: 12.539390s msg: system error reflect: call of reflect.Value.Interface on zero Value"}
+{"LV":"INFO","Time":"2020-04-24 16:49:27.964","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/hello Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-24 16:51:28.300","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/hello Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-24 16:56:32.348","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/hello Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-24 16:57:24.510","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/hello Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-24 17:02:59.968","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/hello Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-24 17:04:04.456","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/hello Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-24 17:11:15.864","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/hello Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-24 17:50:29.609","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/hello Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-24 23:06:38.251","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/hello Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-24 23:07:21.938","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/hello Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 10:42:16.236","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/UpdateBackImg Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 10:43:00.090","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/UpdateBackImg Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 11:14:05.016","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/back_img_update Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 11:17:52.559","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/back_img_update Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 12:02:11.714","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/back_img_update Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 14:01:07.326","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/back_img_url Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 14:16:24.946","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /4cc79495abeb461b84d43972d738ce49?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDBGBuZ8Bx680lNqysTs5BKQL4cdeeqGxT%26q-sign-time%3D1587794467%3B1587798067%26q-key-time%3D1587794467%3B1587798067%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D7c23a432e4f8551d8aabac4f125a09767d7918cd Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 14:16:46.985","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/back_img_url Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 14:23:55.954","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/back_img_url Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 14:25:02.063","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/back_img_url Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 14:36:30.320","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/back_img_url Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 15:30:18.606","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 15:35:04.111","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 15:35:10.114","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 15:35:29.387","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 15:35:29.568","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /favicon.ico Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 15:38:21.590","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 19:48:13.444","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 19:50:33.784","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-25 21:20:54.641","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:10:10.778","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:11:30.826","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:18:45.778","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:20:06.940","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:26:18.337","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:34:31.344","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:35:57.674","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:41:22.522","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:42:00.827","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:42:21.323","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:42:24.157","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:42:33.349","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 11:42:35.328","Name":"base_ops","Caller":"utils/middleware.go:46","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 13:50:50.285","Name":"base_ops","Caller":"utils/middleware.go:49","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"ERROR","Time":"2020-04-26 14:05:02.315","Name":"base_ops","Caller":"utils/middleware.go:38","Msg":"URL: /api/v1/incr duration: 10.618006s msg: system error interface conversion: interface {} is nil, not string"}
+{"LV":"INFO","Time":"2020-04-26 14:09:40.403","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 14:10:37.856","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/incr Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 18:51:32.276","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 18:52:20.218","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 18:53:12.189","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"emali\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 18:53:49.692","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"emali\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 18:54:22.111","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"emali\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 18:54:30.878","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 18:55:17.001","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 18:57:07.242","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 19:05:56.515","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 19:06:58.045","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 19:21:16.189","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 19:22:55.352","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 19:23:08.515","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 19:33:23.240","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 19:34:07.522","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 19:34:56.165","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd12342222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 19:42:51.680","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 20:40:15.245","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/incr Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 20:41:06.773","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/incr Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 20:52:52.014","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 20:53:21.243","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh23\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 20:53:31.336","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh233\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 20:54:28.447","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh233\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 20:55:20.178","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/incr Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 20:55:51.911","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh2333\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"ERROR","Time":"2020-04-26 20:56:56.059","Name":"base_ops","Caller":"utils/middleware.go:38","Msg":"URL: /api/v1/incr duration: 27.991483s msg: system error interface conversion: interface {} is uint32, not int"}
+{"LV":"ERROR","Time":"2020-04-26 20:58:10.090","Name":"base_ops","Caller":"utils/middleware.go:38","Msg":"URL: /api/v1/incr duration: 10.086511s msg: system error interface conversion: interface {} is uint32, not string"}
+{"LV":"INFO","Time":"2020-04-26 20:59:01.129","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/incr Req: {\n\t\"username\": \"zgh2333\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 21:19:38.540","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/login Req: {\n\t\"username\": \"zgh2333\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 21:31:28.438","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/login Req: {\n\t\"username\": \"zgh2333\",\n\t\"password\": \"abcd123422222222\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 21:31:43.782","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/login Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 21:32:00.732","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 21:45:03.060","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/login Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 21:49:24.582","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/login Req: {\n\t\"username\": \"zgh\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 21:52:49.701","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/login Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 22:14:54.360","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/register Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 22:15:17.367","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/login Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 22:30:21.422","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/logout Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 22:30:46.559","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/logout Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 22:40:14.102","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/incr Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 22:40:32.363","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/logout Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 22:41:05.019","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/logout Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 22:43:23.570","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/incr Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-26 22:44:30.164","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/logout Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-27 10:38:38.931","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/user/login Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-27 10:40:34.155","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture_share/01b63cff3f5a486988747774277fa513/ Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-27 10:48:09.810","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture_share/01b63cff3f5a486988747774277fa513 Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-27 11:38:45.042","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-04-27 11:40:02.955","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture Req: {\n\t\"username\": \"zgh2\",\n\t\"password\": \"abcd1234\",\n\t\"email\": \"1141000259@qq.com\"\n} Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-02 18:17:35.626","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-02 21:01:44.179","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-02 21:02:45.759","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-02 21:03:07.915","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-02 21:09:22.362","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-02 21:10:57.635","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-02 21:15:03.486","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-03 09:35:51.276","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-03 09:36:19.604","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture?p=2 Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-03 10:12:20.083","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture?p=2 Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-03 10:20:31.230","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture?p=2 Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-03 10:33:06.801","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture?p=2 Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-03 10:37:11.107","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture?p=2 Req:  Rsp: %!s(MISSING)"}
+{"LV":"INFO","Time":"2020-05-03 10:51:34.578","Name":"base_ops","Caller":"utils/middleware.go:48","Msg":"URL: /api/v1/picture Req:  Rsp: %!s(MISSING)"}
