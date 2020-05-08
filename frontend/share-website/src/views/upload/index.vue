@@ -39,7 +39,7 @@ import uploadApi from "@/api/upload";
           label: '图片'
           },
           {
-          value: 'vedio',
+          value: 'video',
           label: '视频'
           }
         ],
