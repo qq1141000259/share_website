@@ -10,8 +10,12 @@
           </el-form-item>
           <el-form-item>
               <el-button type="primary" @click="submitForm('form')">登录</el-button>
-              <el-button type="primary" @click="dialogVisible = true">注册</el-button>
+              <!-- <el-button type="primary" @click="dialogVisible = true">注册</el-button> -->
           </el-form-item>
+          <div class="beian">
+                  <a href="http://www.beian.miit.gov.cn/">粤ICP备19072826号-1</a>
+          </div>  
+          
       </el-form>
       <el-dialog
         title="注册"
@@ -36,6 +40,7 @@
                 </el-form-item>
             </el-form>
       </el-dialog>
+
   </div>
 </template>
 
@@ -176,6 +181,9 @@ import {login, register, getUserInfo} from '@/api/login'
 }
 .login-title {
     color: #303133;
+    text-align: center;
+}
+.beian {
     text-align: center;
 }
 </style>
