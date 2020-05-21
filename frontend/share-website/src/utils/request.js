@@ -35,7 +35,7 @@ export const defaultReq = axios.create()
 const request = axios.create({
     // /db.json >  通过 axios > /dev-api/db.json >  通过 代理转发（vue.config.js）》 http://localhost:8001/db.json
     // baseURL: '/dev-api', 
-    baseURL: 'http://localhost:8099', 
+    baseURL: 'http://zghtly99.com', 
     // baseURL: '/',
     timeout: 5000, // 请求超时，5000毫秒
     withCredentials: true,  // 允许设置set-cookie和 带上cookie请求
@@ -69,7 +69,9 @@ request.interceptors.response.use(response =>{
             duration: 5 * 1000
         })
         if(resp.code == 99999){
-            window.location.href='/login'
+            localStorage.removeItem('share-website-token')
+            localStorage.removeItem('share-website-user')
+            window.location.href='/'
         }
     }
 
