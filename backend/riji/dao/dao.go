@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"riji/config"
 	"riji/model"
+	"strings"
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
@@ -69,7 +70,11 @@ func (d *Dao) GetTablePagination(table interface{}, count *int, page, perPage in
 	param := []interface{}{false}
 	sParam := "c_is_delete= ?"
 	for k, v := range conditions {
-		sParam += fmt.Sprintf(" and %s = ?", k)
+		if strings.HasSuffix(v.(string), "%"){
+			sParam += fmt.Sprintf(" and %s like ?", k)
+		} else {
+			sParam += fmt.Sprintf(" and %s = ?", k)
+		}
 		param = append(param, v)
 	}
 	err := d.Db.Model(table).Limit(perPage).Offset((page-1)*perPage).Order("c_add_dt desc").Where(sParam, param...).Find(table).Error

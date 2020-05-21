@@ -59,6 +59,9 @@ func NewServer() (*RijiServer, error) {
 	if !dao.Db.HasTable(&model.User{}) {
 		dao.Db.Set("gorm:table_options", "ENGINE=InnoDB CHARSET=utf8mb4").CreateTable(&model.User{})
 	}
+	if !dao.Db.HasTable(&model.WordBook{}) {
+		dao.Db.Set("gorm:table_options", "ENGINE=InnoDB CHARSET=utf8mb4").CreateTable(&model.WordBook{})
+	}
 
 	return &RijiServer{
 		dao:  dao,

@@ -33,3 +33,12 @@ func (user *Base) BeforeCreate(scope *gorm.Scope) error {
 	scope.SetColumn("ID", newId)
 	return nil
 }
+
+type IntBase struct {
+	ID        int    	`json:"id" gorm:"column:c_id;primary_key"`
+	CreatedAt time.Time `json:"add_dt" gorm:"column:c_add_dt"`
+	AddBy     uint32    `json:"add_by" gorm:"column:c_add_by"`
+	UpdatedAt time.Time `json:"update_dt" gorm:"column:c_update_dt"`
+	UpdateBy  uint32    `json:"update_by" gorm:"column:c_update_by"`
+	IsDelete  bool      `json:"is_delete" gorm:"column:c_is_delete"`
+}

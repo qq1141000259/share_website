@@ -13,10 +13,10 @@
       >
       </el-form-item>
     </el-form>
-    <el-table :data="tableData">
+    <el-table :data="tableData" style="width:100%">
       <el-table-column prop="date" label="日期" width="180"></el-table-column>
       <el-table-column prop="user" label="姓名" width="180"></el-table-column>
-      <el-table-column prop="content" label="内容" width="280"></el-table-column>
+      <el-table-column prop="content" label="内容" width="500"></el-table-column>
       <el-table-column label="操作">
         <template slot-scope="scope">
           <el-button size="mini" type="danger" @click="handleDelete(scope.$index, scope.row)">删除</el-button>

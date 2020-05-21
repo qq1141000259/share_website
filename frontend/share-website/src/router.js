@@ -5,6 +5,7 @@ import Router from "vue-router";
 import Login from './views/login'
 import Layout from '@/components/Layout.vue'
 import Home from './views/home'
+import Word from './views/cs_word'
 import Picture from './views/picture_share'
 import Video from './views/video_share'
 import Message from './views/message'
@@ -30,6 +31,17 @@ export default new Router({
           component: Home,
           meta: {title: '首页'}
         }
+      ]
+    },
+    {
+      path: '/word',
+      component: Layout, //组件对象
+      children: [
+        {
+          path: '/',
+          component: Word,
+          meta: {title: '单词薄'}
+        },
       ]
     },
     {

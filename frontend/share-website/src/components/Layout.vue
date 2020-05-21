@@ -32,7 +32,7 @@ export default {
 }
 .navbar {
     position: absolute;
-    width: 200px;
+    width: 140px;
     top: 50px;
     left: 0px;
     bottom: 0px;
@@ -43,7 +43,7 @@ export default {
 .main {
     position: absolute;
     top: 50px;
-    left: 200px;
+    left: 140px;
     right: 0px;
     bottom: 0px;
     padding: 10px;
