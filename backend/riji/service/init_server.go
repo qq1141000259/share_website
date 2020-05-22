@@ -29,7 +29,7 @@ const (
 var configPath string = "config"
 
 func init() {
-	flag.StringVar(&configPath, "conf", configPath, "server listen address")
+	flag.StringVar(&configPath, "conf", configPath, "server config path")
 }
 
 type RijiServer struct {
