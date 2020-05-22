@@ -1,6 +1,7 @@
 package service
 
 import (
+	"flag"
 	"riji/config"
 	"riji/dao"
 	"riji/model"
@@ -24,6 +25,12 @@ const (
 	UserPasswordError = 100008 //用户密码错误
 	RecordNotFound    = 100009 // 记录不存在
 )
+
+var configPath string = "config"
+
+func init() {
+	flag.StringVar(&configPath, "conf", configPath, "server listen address")
+}
 
 type RijiServer struct {
 	dao  *dao.Dao
@@ -72,11 +79,9 @@ func NewServer() (*RijiServer, error) {
 func LoadConfig() (*config.Config, error) {
 	var (
 		conf    config.Config
-		conFile string
 	)
-	conFile = "config"
 
-	viper.SetConfigName(conFile)
+	viper.SetConfigName(configPath)
 	viper.AddConfigPath("config")
 	viper.AddConfigPath("../config")
 
