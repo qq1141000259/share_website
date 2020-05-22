@@ -81,9 +81,9 @@ func LoadConfig() (*config.Config, error) {
 		conf    config.Config
 	)
 
-	viper.SetConfigName(configPath)
+	viper.SetConfigName("config")
 	viper.AddConfigPath("config")
-	viper.AddConfigPath("../config")
+	viper.AddConfigPath(configPath)
 
 	err := viper.ReadInConfig() // 读取配置数据
 	if err != nil {
