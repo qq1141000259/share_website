@@ -2,6 +2,7 @@ package dao
 
 import (
 	"fmt"
+	"reflect"
 	"riji/config"
 	"riji/model"
 	"strings"
@@ -70,7 +71,7 @@ func (d *Dao) GetTablePagination(table interface{}, count *int, page, perPage in
 	param := []interface{}{false}
 	sParam := "c_is_delete= ?"
 	for k, v := range conditions {
-		if strings.HasSuffix(v.(string), "%"){
+		if reflect.TypeOf(v).String() == "string" && strings.HasSuffix(v.(string), "%"){
 			sParam += fmt.Sprintf(" and %s like ?", k)
 		} else {
 			sParam += fmt.Sprintf(" and %s = ?", k)

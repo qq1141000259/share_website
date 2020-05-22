@@ -16,7 +16,7 @@ func Install(r *gin.Engine, s *service.RijiServer) *gin.Engine {
 	pprof.Register(r)
 
 	// 中间件
-	// r.Use(utils.HandleErrors()) // 日志中间件
+	r.Use(utils.HandleErrors()) // 日志中间件
 	r.Use(utils.CORSMiddleware())
 	r.Use(sessions.Sessions("rijiSession", cookie.NewStore([]byte("session"))))
 	r.Use(utils.AuthHandler())
