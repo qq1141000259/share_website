@@ -6,7 +6,6 @@ import (
 	"riji/dao"
 	"riji/model"
 
-	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	"github.com/spf13/viper"
 )
@@ -69,6 +68,9 @@ func NewServer() (*RijiServer, error) {
 	if !dao.Db.HasTable(&model.WordBook{}) {
 		dao.Db.Set("gorm:table_options", "ENGINE=InnoDB CHARSET=utf8mb4").CreateTable(&model.WordBook{})
 	}
+	if !dao.Db.HasTable(&model.Blog{}) {
+		dao.Db.Set("gorm:table_options", "ENGINE=InnoDB CHARSET=utf8mb4").CreateTable(&model.Blog{})
+	}
 
 	return &RijiServer{
 		dao:  dao,
@@ -78,7 +80,7 @@ func NewServer() (*RijiServer, error) {
 
 func LoadConfig() (*config.Config, error) {
 	var (
-		conf    config.Config
+		conf config.Config
 	)
 
 	viper.SetConfigName("config")
@@ -92,8 +94,4 @@ func LoadConfig() (*config.Config, error) {
 	viper.Unmarshal(&conf) // 将配置信息绑定到结构体上
 
 	return &conf, nil
-}
-
-func (s *RijiServer) LoginWrap(c gin.Context) {
-
 }

@@ -1,7 +1,10 @@
 <template>
     <el-breadcrumb  separator="/">
          <el-breadcrumb-item class="line" :to="{ path: $route.path }">
-            {{$route.meta.title}}
+            <a href="#/blog">博客</a>
+         </el-breadcrumb-item>
+         <el-breadcrumb-item :to="{ path: $route.path }">
+            <a :href="'#'+$route.path">编写博客</a>
          </el-breadcrumb-item>
     </el-breadcrumb>
 </template>

@@ -15,6 +15,10 @@
         <i class="el-icon-s-home"></i>
         <span slot="title">首页</span>
       </el-menu-item>
+      <el-menu-item index="/blog">
+        <i class="el-icon-reading"></i>
+        <span slot="title">博客</span>
+      </el-menu-item>
       <el-menu-item index="/word">
         <i class="el-icon-notebook-1"></i>
         <span slot="title">单词薄</span>

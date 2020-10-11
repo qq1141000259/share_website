@@ -43,12 +43,18 @@ func Install(r *gin.Engine, s *service.RijiServer) *gin.Engine {
 	// 获取背景图片
 	api.GET("/back_img_url", s.GetBackImgUrl)
 
+	// blog
+	api.GET("/blog", s.BlogGet)
+	api.POST("/blog", s.BlogPost)
+	api.DELETE("/blog/:id", s.BlogDelete)
+	api.PUT("/blog/:id", s.BlogPut)
+	api.GET("/blog/:id", s.BlogDetail)
+
 	// 单词本
 	api.GET("/word_book", s.WordBookGet)
 	api.POST("/word_book", s.WordBookPost)
 	api.DELETE("/word_book/:id", s.WordBookDelete)
 	api.PUT("/word_book/:id", s.WordBookPut)
-
 
 	// 用户中心
 	user := r.Group("/api/user")

@@ -3,9 +3,13 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import App from "./App.vue";
 import router from "./router";
+import mavonEditor from 'mavon-editor'
 
 // 使用 ElementUI
 Vue.use(ElementUI);
+
+// 使用mavon-editor
+Vue.use(mavonEditor)
 
 // 权限拦截
 import './permission'

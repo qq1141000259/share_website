@@ -5,6 +5,9 @@ import Router from "vue-router";
 import Login from './views/login'
 import Layout from '@/components/Layout.vue'
 import Home from './views/home'
+import Blog from './views/blog'
+import BlogEdit from './views/blog/blog_edit'
+import BlogQuery from './views/blog/blog_query'
 import Word from './views/cs_word'
 import Picture from './views/picture_share'
 import Video from './views/video_share'
@@ -31,6 +34,27 @@ export default new Router({
           component: Home,
           meta: {title: '首页'}
         }
+      ]
+    },
+    {
+      path: '/blog',
+      component: Layout, //组件对象
+      children: [
+        {
+          path: '/blog',
+          component: Blog,
+          meta: {title: '博客'}
+        },
+        {
+          path: '/blog/edit',
+          component: BlogEdit,
+          meta: {title: '编辑'}
+        },
+        {
+          path: '/blog/:id',
+          component: BlogQuery,
+          meta: {title: '查看'}
+        },
       ]
     },
     {
