@@ -41,7 +41,8 @@
         </el-form-item>
         <el-form-item label="正文">
           <div id="main">
-            <mavon-editor style="z-index: 99" ref=md :ishljs = "true" :editable="isUpdate" v-model="formData.value"/>
+            <!-- <mavon-editor style="z-index: 99" ref=md :ishljs = "true" :editable="isUpdate" v-model="formData.value"/> -->
+            <div id="vditor"></div>
           </div>
         </el-form-item>
 
@@ -52,12 +53,15 @@
 
 <script>
 import blogApi from "@/api/blog";
-import 'mavon-editor/dist/css/index.css'
+// import 'mavon-editor/dist/css/index.css'
 import AppLink from './Link.vue'
+import Vditor from "vditor";
+import "vditor/src/assets/scss/index.scss"
 export default {
   components: {AppLink},
   data() {
     return {
+      contentEditor: "",
       dynamicTags: [],
       isUpdate: false,
       inputVisible: false,
@@ -106,25 +110,28 @@ export default {
       });
     },
     submitForm(formData){
-      this.$refs["formData"].validate(valid => {
+      this.$refs["formData"].validate((valid) => {
         if (valid) {
           const data = {
               id: this.$route.path.slice(6),
               title: this.formData.name,
               tag: this.dynamicTags,
               desc: this.formData.desc,
-              content: this.formData.value
+              content: this.contentEditor.getValue()
           };
           console.log(this.dynamicTags);
           blogApi.updateBlogRow(data).then(
             response =>{
-              this.isUpdate = false
+              const resp = response.data
+              if(resp.code == 0) {
+                this.isUpdate = false;
+                this.contentEditor.disabled()
+              }  
             });
         }else{
           console.log('验证失败')
           return false
         }
-        this.dialogVisible = false
       })
     },
     closeHandler(done) {
@@ -136,6 +143,7 @@ export default {
     },
     onUpdate(e) {
       this.isUpdate = true;
+      this.contentEditor.enable()
     },
     onDelete(e) {
       var id = this.$route.path.slice(6)
@@ -149,16 +157,38 @@ export default {
   },
   mounted: function() {
     var id = this.$route.path.slice(6)
-    console.log(id)
-    blogApi.getBlogDetail(id).then(response => {
-      if (!response.code) {
-        const resp = response.data
-        this.formData.value = resp.data.content;
-        this.formData.name = resp.data.title;
-        this.dynamicTags = resp.data.tag;
-        this.formData.desc = resp.data.desc;
-      }
-    });
+    this.contentEditor = new Vditor('vditor', {
+      height: 600,
+      toolbarConfig: {
+        pin: true,
+      },
+      count: {
+        enable: true
+      },
+      preview:{
+        theme: {
+          current: "wechat"
+        }
+      },
+
+      cache: {
+        enable: false,
+      },
+      after: () => {
+        blogApi.getBlogDetail(id).then(response => {
+          if (!response.code) {
+            const resp = response.data
+            this.formData.value = resp.data.content;
+            this.formData.name = resp.data.title;
+            this.dynamicTags = resp.data.tag;
+            this.formData.desc = resp.data.desc;
+            this.contentEditor.setValue(resp.data.content)
+            this.contentEditor.disabled()
+          }
+        })
+      },
+    })
+    ;
   }
 };
 </script>

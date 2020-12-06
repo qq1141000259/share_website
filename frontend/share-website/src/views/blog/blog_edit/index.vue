@@ -36,25 +36,31 @@
         </el-form-item>
         <el-form-item label="正文">
           <div id="main">
-            <mavon-editor style="z-index: 99" ref=md :ishljs = "true" v-model="formData.value"/>
+            <div id="vditor"></div>
+            <!-- <mavon-editor style="z-index: 99" ref=md :ishljs = "true" v-model="formData.value"/> -->
           </div>
         </el-form-item>
         <el-form-item>
           <el-button type="primary" @click="submitForm">立即创建</el-button>
         </el-form-item>
       </el-form>
+
     </div>
   </div>
 </template>
 
 <script>
 import blogApi from "@/api/blog";
-import 'mavon-editor/dist/css/index.css'
+// import 'mavon-editor/dist/css/index.css'
 import AppLink from './Link.vue'
+import Vditor from "vditor";
+import "vditor/src/assets/scss/index.scss"
+
 export default {
   components: {AppLink},
   data() {
     return {
+      contentEditor: '',
       dynamicTags: ["技术"],
       inputVisible: false,
       inputValue: '', 
@@ -108,12 +114,15 @@ export default {
               title: this.formData.name,
               tag: this.dynamicTags,
               desc: this.formData.desc,
-              content: this.formData.value
+              content: this.contentEditor.getValue()
           };
           console.log(this.dynamicTags);
           blogApi.postBlogRow(data).then(
             response =>{
-              this.$router.push('/blog')
+              const resp = response.data
+              if(resp.code == 0) {
+                this.$router.push('/blog')
+              }
             });
         }else{
           console.log('验证失败')
@@ -135,7 +144,24 @@ export default {
             })
             .catch(_ => {});
     }
-  }
+  },
+  mounted () {
+    this.contentEditor = new Vditor('vditor', {
+      height: 360,
+      toolbarConfig: {
+        pin: true,
+      },
+      count: {
+        enable: true
+      },
+      cache: {
+        enable: false,
+      },
+      after: () => {
+        this.contentEditor.setValue("")
+      },
+    })
+  },
 };
 </script>
 
